@@ -26,7 +26,6 @@
     "gcc@latest",
     "git@latest",
     "rustup@latest",
-    "npm@latest",
     "unzip@latest"
   ],
   "shell": {

@@ -1,0 +1,21 @@
+# fzf setup
+
+# Set up fzf key bindings and fuzzy completion
+eval "$(fzf --zsh)"
+
+source /Users/bmiletic/.config/dotfiles/fzf-zsh-completion.sh
+bindkey '^I' fzf_completion
+
+# export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --color=fg:#c0caf5,bg:#1a1b26,hl:#7aa2f7,fg+:#ffffff,bg+:#0000ff,hl+:#87ceeb --border --bind tab:down,shift-tab:up --cycle'
+export FZF_DEFAULT_OPTS='--height 35% --layout=reverse --color=fg:#c0caf5,bg:-1,hl:#7aa2f7,fg+:#ffffff,bg+:-1,hl+:#87ceeb --border --bind tab:down,shift-tab:up --cycle'
+export FZF_DEFAULT_COMMAND='fd --type f --strip-cwd-prefix --hidden --follow --exclude .git'
+
+# # Use ~~ as the trigger sequence instead of the default **
+export FZF_COMPLETION_TRIGGER='**'
+#
+# Options to fzf command
+export FZF_COMPLETION_OPTS='--border --info=inline'
+
+# Print tree structure in the preview window
+export FZF_ALT_C_OPTS="--walker-skip .git,node_modules,target --preview 'tree -C {}'"
+
