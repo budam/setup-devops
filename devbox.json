@@ -36,7 +36,7 @@
       "export XDG_CONFIG_HOME=$HOME/.config",
       "curl -o /tmp/.aliases https://raw.githubusercontent.com/budam/setup-devops/main/aliases",
       "source /tmp/.aliases",
-      "source $HOME/.cargo/env",
+      "chsh -s $(which zsh)",
       "rm /tmp/.aliases"
     ],
     "scripts": {
