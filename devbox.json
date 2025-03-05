@@ -34,6 +34,7 @@
       "alias l=ls",
       "export XDG_CONFIG_HOME=$HOME/.config",
       "curl -o /tmp/.aliases https://raw.githubusercontent.com/budam/setup-devops/main/aliases",
+      "curl -o ~/.zshrc https://raw.githubusercontent.com/budam/setup-devops/main/zshrc",
       "source /tmp/.aliases",
       "rm /tmp/.aliases"
     ],

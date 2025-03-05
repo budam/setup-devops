@@ -4,7 +4,7 @@ curl -o devbox.json https://raw.githubusercontent.com/budam/setup-devops/main/de
 
 echo "devbox.json downloaded"
 
-curl -o ~/.zshrc https://raw.githubusercontent.com/budam/setup-devops/main/zshrc
+#curl -o ~/.zshrc https://raw.githubusercontent.com/budam/setup-devops/main/zshrc
 
-echo "zshrc downloaded"
+#echo "zshrc downloaded"
 echo "Finished!"
