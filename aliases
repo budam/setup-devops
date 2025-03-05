@@ -1,0 +1,6 @@
+alias l=ls
+alias ll='la -la'
+alias v='sh -c '\''file_path="${1:-}" && if [ -n "$file_path" ] && [ -f "$file_path" ]; then nvim "$file_path"; else dir="${2:-.}" && cd "$dir" && find . \( -type d \( -name ".terra*" -o -name ".git" \) -prune \) -o \( -type f ! \( -name ".terra*" -o -name ".git" \) -print \) | fzf --height 70% --preview "bat --style=numbers --color=always --theme=Nord {}" | xargs -r nvim; fi'\'
+alias tofu=opentofu
+alias tg=terragrunt
+alias kc=kubecolor
