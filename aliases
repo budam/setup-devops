@@ -5,3 +5,4 @@ alias tofu=opentofu
 alias tg=terragrunt
 alias kc=kubecolor
 alias vi=nvim
+alias cl=clear
