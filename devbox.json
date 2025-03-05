@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.10.7/.schema/devbox.schema.json",
+  "packages": [
+    "gh@latest",
+    "go@latest",
+    "go-task@latest",
+    "k9s@latest",
+    "kubectl@latest",
+    "python312@latest",
+    "yq-go@latest",
+    "kubent@latest",
+    "terragrunt@latest",
+    "azure-cli@latest",
+    "opentofu@latest",
+    "podman@latest",
+    "podman-compose@latest",
+    "google-cloud-sdk@latest",
+    "tmux@latest",
+    "zsh@latest",
+    "neovim@latest",
+    "lazygit@latest",
+    "fzf@latest",
+    "ripgrep@latest",
+    "fd@latest",
+    "bat@latest",
+    "kubecolor@latest",
+    "gcc@latest",
+    "git@latest",
+    "rustup@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "export GOBIN=$(git rev-parse --show-toplevel)/bin",
+      "export PATH=$GOBIN:$PATH",
+      "alias l=ls",
+      "export XDG_CONFIG_HOME=$HOME/.config",
+      "curl -o /tmp/.aliases https://raw.githubusercontent.com/budam/setup-devops/main/aliases",
+      "source /tmp/.aliases",
+      "source $HOME/.cargo/env",
+      "rm /tmp/.aliases"
+    ],
+    "scripts": {
+      "test": ["echo \"Error: no test specified\" && exit 1"]
+    }
+  }
+}

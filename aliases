@@ -4,3 +4,4 @@ alias v='sh -c '\''file_path="${1:-}" && if [ -n "$file_path" ] && [ -f "$file_p
 alias tofu=opentofu
 alias tg=terragrunt
 alias kc=kubecolor
+alias vi=nvim
