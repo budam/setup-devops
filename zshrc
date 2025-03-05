@@ -41,3 +41,5 @@ bindkey '\e[A' history-search-backward
 bindkey '\e[B' history-search-forward
 
 alias ds="devbox shell"
+
+cd /mnt/c/Users/BudimirMiletic/projects/

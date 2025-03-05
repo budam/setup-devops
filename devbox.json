@@ -25,7 +25,9 @@
     "kubecolor@latest",
     "gcc@latest",
     "git@latest",
-    "rustup@latest"
+    "rustup@latest",
+    "node@latest",
+    "unzip@latest"
   ],
   "shell": {
     "init_hook": [
