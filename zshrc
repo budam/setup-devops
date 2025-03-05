@@ -27,6 +27,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+source $ZSH/.fzfrc
 
 # zshrc plugin customization
 #ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff00ff,bg=cyan,bold,underline"
@@ -42,4 +43,4 @@ bindkey '\e[B' history-search-forward
 
 alias ds="devbox shell"
 
-cd /mnt/c/Users/BudimirMiletic/projects/
+# cd /mnt/c/Users/BudimirMiletic/projects/
