@@ -40,3 +40,4 @@ ZSH_HIGHLIGHT_HIGHLIGHTERS+=(brackets pattern cursor)
 bindkey '\e[A' history-search-backward
 bindkey '\e[B' history-search-forward
 
+alias ds="devbox shell"
