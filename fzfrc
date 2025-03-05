@@ -3,7 +3,6 @@
 # Set up fzf key bindings and fuzzy completion
 eval "$(fzf --zsh)"
 
-source /Users/bmiletic/.config/dotfiles/fzf-zsh-completion.sh
 bindkey '^I' fzf_completion
 
 # export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --color=fg:#c0caf5,bg:#1a1b26,hl:#7aa2f7,fg+:#ffffff,bg+:#0000ff,hl+:#87ceeb --border --bind tab:down,shift-tab:up --cycle'
