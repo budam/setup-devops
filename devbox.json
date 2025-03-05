@@ -16,7 +16,6 @@
     "podman-compose@latest",
     "google-cloud-sdk@latest",
     "tmux@latest",
-    "zsh@latest",
     "neovim@latest",
     "lazygit@latest",
     "fzf@latest",
@@ -36,7 +35,6 @@
       "export XDG_CONFIG_HOME=$HOME/.config",
       "curl -o /tmp/.aliases https://raw.githubusercontent.com/budam/setup-devops/main/aliases",
       "source /tmp/.aliases",
-      "chsh -s $(which zsh)",
       "rm /tmp/.aliases"
     ],
     "scripts": {
