@@ -27,7 +27,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-source /tmp/.fzfrc
+source ~/.fzfrc
 
 source ~/.config/fzf-tab-completion/zsh/fzf-zsh-completion.sh
 bindkey '^I' fzf_completion

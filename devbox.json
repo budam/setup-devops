@@ -34,11 +34,9 @@
       "export PATH=$GOBIN:$PATH",
       "alias l=ls",
       "export XDG_CONFIG_HOME=$HOME/.config",
-      "curl -o /tmp/.aliases https://raw.githubusercontent.com/budam/setup-devops/main/aliases",
+      "curl -o ~/.aliases https://raw.githubusercontent.com/budam/setup-devops/main/aliases",
       "curl -o ~/.zshrc https://raw.githubusercontent.com/budam/setup-devops/main/zshrc",
-      "curl -o ~/.fzfrc https://raw.githubusercontent.com/budam/setup-devops/main/fzfrc",
-      "source /tmp/.aliases",
-      "rm /tmp/.aliases"
+      "curl -o ~/.fzfrc https://raw.githubusercontent.com/budam/setup-devops/main/fzfrc"
     ],
     "scripts": {
       "test": ["echo \"Error: no test specified\" && exit 1"]
