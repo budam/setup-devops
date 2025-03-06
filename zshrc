@@ -23,7 +23,6 @@ plugins=(
     zsh-fzf-history-search
     kubectl
     fzf
-    direnv
 )
 
 source $ZSH/oh-my-zsh.sh
