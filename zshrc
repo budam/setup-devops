@@ -27,7 +27,7 @@ plugins=(
 )
 
 # source $ZSH/oh-my-zsh.sh
-source $ZSH/.fzfrc
+source ~/.fzfrc
 
 # zshrc plugin customization
 #ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff00ff,bg=cyan,bold,underline"
