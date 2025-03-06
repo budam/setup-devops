@@ -1,4 +1,4 @@
-# export ZSH="$HOME/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="robbyrussell"
 
@@ -26,8 +26,10 @@ plugins=(
     direnv
 )
 
-# source $ZSH/oh-my-zsh.sh
+source $ZSH/oh-my-zsh.sh
 source ~/.fzfrc
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
 
 # zshrc plugin customization
 #ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff00ff,bg=cyan,bold,underline"
