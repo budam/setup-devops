@@ -28,8 +28,9 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 source ~/.fzfrc
-# Set up fzf key bindings and fuzzy completion
-source <(fzf --zsh)
+
+source ~/.config/fzf-tab-completion/zsh/fzf-zsh-completion.sh
+bindkey '^I' fzf_completion
 
 # zshrc plugin customization
 #ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff00ff,bg=cyan,bold,underline"
