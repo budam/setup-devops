@@ -32,6 +32,10 @@ source ~/.fzfrc
 source ~/.config/fzf-tab-completion/zsh/fzf-zsh-completion.sh
 bindkey '^I' fzf_completion
 
+# first time this need to be done
+#kubectl completion bash | sudo tee /etc/bash_completion.d/kubectl > /dev/null
+echo 'complete -o default -F __start_kubectl kc'
+
 # zshrc plugin customization
 #ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff00ff,bg=cyan,bold,underline"
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=cyan"
