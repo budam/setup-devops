@@ -26,7 +26,9 @@
     "gcc@latest",
     "git@latest",
     "rustup@latest",
-    "unzip@latest"
+    "unzip@latest",
+    "kubelogin@latest",
+    "eza@latest"
   ],
   "shell": {
     "init_hook": [
