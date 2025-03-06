@@ -15,6 +15,8 @@ git clone https://github.com/joshskidmore/zsh-fzf-history-search ${ZSH_CUSTOM:-~
 ```
 
 # az autocomplete
+# put it in the location /etc/bash_completion.d/
+
 ```bash
 wget https://raw.githubusercontent.com/Azure/azure-cli/dev/az.completion \
   -O ~/.oh-my-zsh/custom/az.zsh
