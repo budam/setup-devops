@@ -27,7 +27,7 @@
     "git@latest",
     "rustup@latest",
     "unzip@latest",
-    "bash_completion@latest"
+    "bash_completions@latest"
   ],
   "shell": {
     "init_hook": [
