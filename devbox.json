@@ -28,7 +28,9 @@
     "rustup@latest",
     "unzip@latest",
     "kubelogin@latest",
-    "eza@latest"
+    "eza@latest",
+    "tflint@latest",
+    "tfsec@latest"
   ],
   "shell": {
     "init_hook": [
