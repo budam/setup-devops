@@ -6,4 +6,4 @@ alias tg=terragrunt
 alias kc=kubecolor
 alias vi=nvim
 alias cl=clear
-alias otch='echo "${C_BLUE}\not init\n---\n${C_NO_COLOR}" && oti && echo "${C_BLUE}\not fmt \n---\n${C_NO_COLOR}" && otf && echo "${C_BLUE}\notv \n---\n${C_NO_COLOR}" && otv && echo "${C_BLUE}\ntflint\n---\n${C_NO_COLOR}" && tflint && echo "${C_BLUE}\ntfsec\n---\n${C_NO_COLOR}" && tfsec'
+alias otch='echo "${C_BLUE}\ntofu init\n---\n${C_NO_COLOR}" && tofu init && echo "${C_BLUE}\ntofu fmt \n---\n${C_NO_COLOR}" && tofu fmt && echo "${C_BLUE}\ntofu validate \n---\n${C_NO_COLOR}" && tofu validate && echo "${C_BLUE}\ntflint\n---\n${C_NO_COLOR}" && tflint && echo "${C_BLUE}\ntfsec\n---\n${C_NO_COLOR}" && tfsec'
