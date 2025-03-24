@@ -6,3 +6,4 @@ alias kc=kubecolor
 alias vi=nvim
 alias cl=clear
 alias otch='echo "${C_BLUE}\ntofu init\n---\n${C_NO_COLOR}" && tofu init && echo "${C_BLUE}\ntofu fmt \n---\n${C_NO_COLOR}" && tofu fmt && echo "${C_BLUE}\ntofu validate \n---\n${C_NO_COLOR}" && tofu validate && echo "${C_BLUE}\ntflint\n---\n${C_NO_COLOR}" && tflint && echo "${C_BLUE}\ntfsec\n---\n${C_NO_COLOR}" && tfsec'
+alias otcl='find . \( -name '\''.terra*'\'' -o -name '\''*.tfstate*'\'' -o -name '\''*.tfvars.json'\'' \) -exec rm -rf {} +'
