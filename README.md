@@ -28,3 +28,8 @@ echo "source ~/.oh-my-zsh/custom/az.zsh" >> ~/.zshrc
 pre-commit install
 pre-commit run --all-files
 ```
+
+## custom oh my zshr custom
+```bash
+ ~/.oh-my-zsh/themes/robbyrussell.zsh-theme
+```
