@@ -41,7 +41,9 @@
       "export XDG_CONFIG_HOME=$HOME/.config",
       "curl -o ~/.aliases https://raw.githubusercontent.com/budam/setup-devops/main/aliases",
       "curl -o ~/.zshrc https://raw.githubusercontent.com/budam/setup-devops/main/zshrc",
-      "curl -o ~/.fzfrc https://raw.githubusercontent.com/budam/setup-devops/main/fzfrc"
+      "curl -o ~/.fzfrc https://raw.githubusercontent.com/budam/setup-devops/main/fzfrc",
+      "curl -o  ~/.oh-my-zsh/themes/robbyrussell.zsh-theme https://raw.githubusercontent.com/budam/setup-devops/main/robbyrussell.zsh-theme",
+      "source ~/.zshrc"
     ],
     "scripts": {
       "test": ["echo \"Error: no test specified\" && exit 1"]
