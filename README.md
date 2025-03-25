@@ -22,3 +22,9 @@ wget https://raw.githubusercontent.com/Azure/azure-cli/dev/az.completion \
   -O ~/.oh-my-zsh/custom/az.zsh
 echo "source ~/.oh-my-zsh/custom/az.zsh" >> ~/.zshrc
 ```
+
+## pre comit install
+```bash
+pre-commit install
+pre-commit run --all-files
+```

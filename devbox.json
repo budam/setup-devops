@@ -30,7 +30,10 @@
     "kubelogin@latest",
     "eza@latest",
     "tflint@latest",
-    "tfsec@latest"
+    "tfsec@latest",
+    "pre-commit@latest",
+    "terraform-docs@latest",
+    "terraform-ls@latest"
   ],
   "shell": {
     "init_hook": [
