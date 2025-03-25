@@ -1,0 +1,92 @@
+# Local .terraform directories
+**/.terraform/*
+
+*terragrunt*
+*.terragrunt*
+**/.terragrunt-cache/*
+.terragrunt-cache/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# vscode
+*.DS_Store
+*/.DS_Store
+
+# .tfvars files, which are likely to contain sentitive data, such as
+# password, private keys, and other secrets.
+# *.tfvars
+
+# Override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Override files you do wish to add to version control using negated pattern
+!example_override.tf
+
+# tfplan files
+*tfplan*
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# Lock files
+.terraform.lock.hcl
+
+# VS Code metadata
+*.code-workspace
+
+# Local .terraform directories
+**/.terraform/*
+
+*terragrunt*
+*.terragrunt*
+**/.terragrunt-cache/*
+.terragrunt-cache/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# .tfvars files, which are likely to contain sentitive data, such as
+# password, private keys, and other secrets.
+# *.tfvars
+
+# Override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Override files you do wish to add to version control using negated pattern
+!example_override.tf
+
+# tfplan files
+*tfplan*
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# Lock files
+.terraform.lock.hcl
+
+# VS Code metadata
+*.code-workspace
+
+.pre-commit-config.yaml
+
+.envrc
+
