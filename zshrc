@@ -50,5 +50,6 @@ bindkey '\e[A' history-search-backward
 bindkey '\e[B' history-search-forward
 
 alias ds="devbox shell"
+eval "$(zoxide init --cmd cd zsh)"
 
 # cd /mnt/c/Users/BudimirMiletic/projects/

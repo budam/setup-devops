@@ -33,7 +33,8 @@
     "tfsec@latest",
     "pre-commit@latest",
     "terraform-docs@latest",
-    "terraform-ls@latest"
+    "terraform-ls@latest",
+    "zoxide@latest"
   ],
   "shell": {
     "init_hook": [
