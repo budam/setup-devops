@@ -66,10 +66,16 @@ git_status_info() {
   unstaged=$(git diff --name-only 2>/dev/null | wc -l)
   untracked=$(git ls-files --others --exclude-standard 2>/dev/null | wc -l)
 
-  # Only show symbols if there are changes
-  [[ $staged -gt 0 ]] && echo " %{$fg[green]%}●${staged}%{$reset_color%}"  # Staged
-  [[ $unstaged -gt 0 ]] && echo " %{$fg[yellow]%}✗${unstaged}%{$reset_color%}"  # Unstaged
-  [[ $untracked -gt 0 ]] && echo " %{$fg[red]%}+${untracked}%{$reset_color%}"  # Untracked
+  # Initialize the status string with a new name
+  local git_status=""
+
+  # Append symbols to the git_status string if there are changes
+  [[ $staged -gt 0 ]] && git_status+=" %{$fg[green]%}●${staged}%{$reset_color%}"  # Staged
+  [[ $untracked -gt 0 ]] && git_status+=" %{$fg[red]%}+${untracked}%{$reset_color%}"  # Untracked
+  [[ $unstaged -gt 0 ]] && git_status+=" %{$fg[yellow]%}✗${unstaged}%{$reset_color%}"  # Unstaged
+
+  # Output the final status on the same line
+  echo -n "$git_status"
 }
 
 git_tag_info() {
