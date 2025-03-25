@@ -57,7 +57,7 @@ eval "$(zoxide init --cmd cd zsh)"
 git_prompt_info() {
   local branch
   branch=$(git symbolic-ref --short HEAD 2>/dev/null || git rev-parse --short HEAD 2>/dev/null)
-  [[ -n $branch ]] && echo " %{$fg[magenta]%} $branch%{$reset_color%}"
+  [[ -n $branch ]] && echo " %{$fg[white]%} $branch%{$reset_color%}"
 }
 
 git_status_info() {
