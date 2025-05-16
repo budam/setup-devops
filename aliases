@@ -9,8 +9,20 @@ alias cl=clear
 alias otch='echo "${C_BLUE}\ntofu init\n---\n${C_NO_COLOR}" && tofu init && echo "${C_BLUE}\ntofu fmt \n---\n${C_NO_COLOR}" && tofu fmt && echo "${C_BLUE}\ntofu validate \n---\n${C_NO_COLOR}" && tofu validate && echo "${C_BLUE}\ntflint\n---\n${C_NO_COLOR}" && tflint && echo "${C_BLUE}\ntfsec\n---\n${C_NO_COLOR}" && tfsec'
 alias otcl='find . \( -name '\''.terra*'\'' -o -name '\''*.tfstate*'\'' -o -name '\''*.tfvars.json'\'' \) -exec rm -rf {} +'
 alias lt='ls --sort=time --time-style=long-iso --tree --level 3'
-alias oti='tofu init'
-alias otv='tofu validate'
-alias otp='tofu plan'
+## ---------- TOFU --------- #
+alias ot=tofu
 alias ota='tofu apply'
 alias otaa='tofu apply -auto-approve'
+alias otp='tofu plan'
+alias otsl='tofu state list'
+alias otss='tofu state show'
+alias otf='tofu fmt'
+alias otv='tofu validate'
+alias otd='tofu destroy'
+alias otda='tofu destroy -auto-approve'
+alias oti='tofu init'
+alias otiu='tofu init --upgrade'
+alias otc='tofu console'
+alias otenv='tofuenv'
+alias oto='tofu output'
+
