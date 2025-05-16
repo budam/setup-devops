@@ -10,6 +10,7 @@ alias otch='echo "${C_BLUE}\ntofu init\n---\n${C_NO_COLOR}" && tofu init && echo
 alias otcl='find . \( -name '\''.terra*'\'' -o -name '\''*.tfstate*'\'' -o -name '\''*.tfvars.json'\'' \) -exec rm -rf {} +'
 alias lt='ls --sort=time --time-style=long-iso --tree --level 3'
 alias oti='tofu init'
+alias otv='tofu validate'
 alias otp='tofu plan'
 alias ota='tofu apply'
 alias otaa='tofu apply -auto-approve'
