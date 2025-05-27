@@ -7,6 +7,7 @@
     "k9s@latest",
     "kubectl@latest",
     "python312@latest",
+    "pipenv@latest",
     "yq-go@latest",
     "kubent@latest",
     "terragrunt@latest",
